@@ -1,0 +1,20 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 80px;
+  height: 80px;
+  list-style-type: none;
+  border-style: solid;
+  background-color: gray;
+}
+
+li:hover {
+  background-color: yellow;
+}
+
+.done {
+  background-color: white;
+}
